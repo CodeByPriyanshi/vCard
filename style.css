@@ -1,0 +1,70 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    background-color: #000;
+}
+.logo-img{
+   margin-left: 30px;
+}
+img{
+    width: 30%;
+    margin: 30px 100px;
+}
+h2{
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+}
+p{
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 10px;
+    color: #807d7d;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.icons i{
+    font-size: 2rem;
+    padding-left: 8px;
+    color: #fff;
+}
+.tab-btn{
+    background: #807d7d;
+    margin-top: 15px;
+    margin-left: 25%;
+    width: 50%;
+    border-radius: 25px;
+}
+.link-btn{
+    padding: 10px 20px;
+    background:#807d7d;
+    font-size: 1.5rem;
+    color: #000;
+    border-radius: 20px;
+    border: none;
+}
+.shop-btn{
+    padding: 10px 20px;
+    background: #807d7d;
+    font-size: 1.5rem;
+    color: #000;
+    border-radius: 20px;
+    border: none;
+}
+.link-btn:active{
+    background: #000;
+    color: #fff;
+}
+.shop-btn:active{
+    background: #000;
+    color: #fff;
+}
