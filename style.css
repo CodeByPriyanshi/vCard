@@ -1,70 +1,85 @@
-*{
-    padding: 0px;
-    margin: 0px;
-}
-body{
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+ }
+ .card-container{
+    background:black;
+    height: 100vh;
+ }
+ .logo-img {
+    text-align: center;
+    padding-top: 2rem;
+    color: #fff;
+ }
+ .logo-img img{
+    width: 20%;
+ }
+ .icons{
+    font-size: 2rem;
+    text-align: center;
+    padding-top:2rem ;
+ }
+ .icons i{
+    padding-left: 1rem;
+ }
+ .tab-btn {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .tab-btn button {
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    border: none;
+    background-color: #ddd;
+    font-size: 16px;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+  }
+
+  .tab-btn button.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  .tab-content {
+    display: none;
+    text-align: center;
+  }
+
+  .tab-content.active {
+    display: block;
+  }
+  #link{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: sans-serif;
-    background-color: #000;
-}
-.logo-img{
-   margin-left: 30px;
-}
-img{
+    background: #ddd;
+    flex-wrap: wrap;
+    border-radius: 20px;
     width: 30%;
-    margin: 30px 100px;
-}
-h2{
-    text-align: center;
-    font-size: 2rem;
-    color: #fff;
-}
-p{
-    text-align: center;
-    font-size: 2rem;
-    padding-top: 10px;
-    color: #807d7d;
-}
-.icons{
-    display: flex;
+    height:20vh;
+    gap: 10px;
+  }
+  #link img{
+    width: 15%;
+  }
+  #shop{
+    display:none;
     justify-content: center;
-    margin-top: 20px;
-}
-.icons i{
-    font-size: 2rem;
-    padding-left: 8px;
-    color: #fff;
-}
-.tab-btn{
-    background: #807d7d;
-    margin-top: 15px;
-    margin-left: 25%;
-    width: 50%;
-    border-radius: 25px;
-}
-.link-btn{
-    padding: 10px 20px;
-    background:#807d7d;
-    font-size: 1.5rem;
-    color: #000;
+    align-items: center;
+    background: #ddd;
+    flex-wrap: wrap;
     border-radius: 20px;
-    border: none;
-}
-.shop-btn{
-    padding: 10px 20px;
-    background: #807d7d;
-    font-size: 1.5rem;
-    color: #000;
-    border-radius: 20px;
-    border: none;
-}
-.link-btn:active{
-    background: #000;
-    color: #fff;
-}
-.shop-btn:active{
-    background: #000;
-    color: #fff;
-}
+    width: 30%;
+    height:20vh;
+    gap: 10px;
+  }
+  #shop img{
+    width: 15%;
+  }
+  
