@@ -5,25 +5,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <div class="card">
-        <div class="logo-img"><img src="logo.png"></div>
-        <div>
-            <h2>Hearts Desire Luxury</h2>
-            <p>The Fragrance of India</p>
+        <div class="main-container">
+            <div class="logo-container">
+                <img src="logo.png">
+            </div>
+            <div>
+                <h1>Heart's Desire Luxury</h1>
+                <p>The Fragrance of India</p>
+            </div>
         </div>
-        <div class="icons">
-            <a href="#"><i class="fa fa-facebook fa-fw"></i></a>
-            <a href="#"><i class="fa fa-instagram fa-fw"></i></a>
-            <a href="#"><i class="fa fa-linkedin fa-fw"></i></a>
-            <a href="#"><i class="fa fa-whatsapp fa-fw"></i></a>
+        <div class="icon-container">
+            <a href="">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="">
+                <i class="fa-brands fa-whatsapp"></i>
+            </a>
+            <a href="">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
         </div>
-        <div class="tab-btn">
-            <button class="link-btn">Link</button>
-            <button class="shop-btn">Shop</button>
+        <div class="tabs">
+            <!-- Radio buttons (none checked by default) -->
+            <input type="radio" name="tabs" id="tab1">
+            <input type="radio" name="tabs" id="tab2">
+          
+            <!-- Tab labels -->
+            <div class="tab-labels">
+              <label for="tab1">Shop</label>
+              <label for="tab2">Link</label>
+            </div>
+          
+            <!-- Tab content -->
+            <div class="content">
+              <div class="tab-content" id="content1">
+               <img src="product1.png" alt="1">
+               <img src="product2.png" alt="2">
+               <img src="product3.png" alt="3">
+              </div>
+              <div class="tab-content" id="content2">
+                <h3>Tab 2 Content</h3>
+                <p>Yeh tab 2 ka content hai.</p>
+              </div>
+            </div>
+          </div>
+          
         </div>
-    </div>
 </body>
 </html>
