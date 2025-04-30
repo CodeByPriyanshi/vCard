@@ -1,105 +1,70 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: sans-serif;
-}
-html{
-    font-size: 16px;
-}
-.card{
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-    background-color: black;
-    height: 100vh;
-}
-.main-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 3rem 0rem;
-    color: white;
-}
-h1{
-    font-size: 1.5rem;
-}
-.logo-container img{
-    width: 30%;
-    padding-bottom: 1rem;
-}
-.icon-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-}
-.icon-container a i{
-    font-size: 2.5rem;
-    color: white;
-   
-}
-.tabs {
-    width: 320px;
-    margin: 50px auto;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    overflow: hidden;
-  }
-
-  input[type="radio"] {
-    display: none;
-  }
-
-  .tab-labels {
-    width: 90%;
-    display: flex;
-    margin-left:18px;
-  }
-
-  .tab-labels label {
-    flex: 1;
-    padding: 12px 10px;
-    background-color: #f1f1f1;
-    text-align: center;
-    cursor: pointer;
-    transition: background 0.3s ease;
-    border-radius: 20px;
-  }
-
-  .tab-labels label:hover {
-    background-color: #ddd;
-  }
-
-  /* Active tab */
-  #tab1:checked ~ .tab-labels label[for="tab1"],
-  #tab2:checked ~ .tab-labels label[for="tab2"] {
-    background-color: #ccc;
-  }
-
-  .tab-content {
-    display: none;
-    padding: 20px;
     background-color: #000;
-    height: 30vh;
-  }
-
-  /* Show only selected tab's content */
-  #tab1:checked ~ .content #content1 {
-    display: block;
-  }
-
-  #tab2:checked ~ .content #content2 {
-    display: block;
-  }
-.content{
-    height: 30vh;
-    margin-top: 10px;
 }
-.content img{
-    height: 10vh;
-    border-radius:10px;
-    
+.logo-img{
+   margin-left: 30px;
+}
+img{
+    width: 30%;
+    margin: 30px 100px;
+}
+h2{
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+}
+p{
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 10px;
+    color: #807d7d;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.icons i{
+    font-size: 2rem;
+    padding-left: 8px;
+    color: #fff;
+}
+.tab-btn{
+    background: #807d7d;
+    margin-top: 15px;
+    margin-left: 25%;
+    width: 50%;
+    border-radius: 25px;
+}
+.link-btn{
+    padding: 10px 20px;
+    background:#807d7d;
+    font-size: 1.5rem;
+    color: #000;
+    border-radius: 20px;
+    border: none;
+}
+.shop-btn{
+    padding: 10px 20px;
+    background: #807d7d;
+    font-size: 1.5rem;
+    color: #000;
+    border-radius: 20px;
+    border: none;
+}
+.link-btn:active{
+    background: #000;
+    color: #fff;
+}
+.shop-btn:active{
+    background: #000;
+    color: #fff;
 }
